@@ -1,5 +1,5 @@
 # PERSONA - Emiliano
-Status: synthetic review completed; deployed fix verification pending API setup and deployment 2.
+Status: synthetic review completed; corrected label verified on deployment 2.
 
 ## Method and limits
 A fresh-context synthetic reviewer inspected two actual sequential deployment-1 screenshots. Rosa, 45, is fictional: a cautious Mexican shopper who uses WhatsApp, reads slowly, has MXN 3000 before MXN 1200 pending payments, and considers MXN 2499 headphones. This is a screenshot walkthrough, not a real participant, autonomous browser session, or successful AI interaction.
@@ -37,3 +37,8 @@ No human study has been conducted. Invite five willing shoppers, use invented ca
 | P3 | Checklist first | Not collected | Not collected |
 | P4 | AI first | Not collected | Not collected |
 | P5 | Checklist first | Not collected | Not collected |
+
+## Deployed correction and real AI evidence
+The corrected money label and blank-text validation were verified on the second deployment. Real Gemini text and vision responses were observed; the image response correctly flagged conflicting supplied amounts. This final verification was performed by the development agent, not a second persona session.
+
+![Final real vision response and buyer override](evidence/07-real-vision-override.png)
