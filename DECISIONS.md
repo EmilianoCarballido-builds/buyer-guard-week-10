@@ -5,3 +5,7 @@
 - Gemini free-tier text + vision; key configured only in Vercel by owner.
 - Checklist works without AI; no fabricated AI fallback.
 - Next move: add validated endpoint, test, deploy 1, then observed fixes and deploy 2.
+- Deployment 1 is READY. Live checklist verified; live AI honestly reports missing configuration.
+- Observed whitespace-only product bug fixed; seven automated tests pass.
+- Fresh synthetic persona identified double-subtraction risk; clarified the money label.
+- Next move: owner sets GEMINI_API_KEY in Vercel Production without triggering a deployment; perform deployment 2 with fixes, verify real text/vision, finalize evidence and docs-only commit 5.
